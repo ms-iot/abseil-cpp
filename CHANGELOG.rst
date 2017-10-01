@@ -2,8 +2,8 @@
 Changelog for package abseil_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2017-10-01)
+------------------
 * Merge branch 'master' of https://github.com/Eurecat/abseil-cpp
 * test removed
 * Update README.md

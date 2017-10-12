@@ -60,7 +60,7 @@ install(TARGETS ${PROJECT_NAME}
  )
 
 ## Mark cpp header files for installation
-install(DIRECTORY include
+install(DIRECTORY include/
     DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}
     FILES_MATCHING PATTERN "*.h"
     PATTERN ".svn" EXCLUDE

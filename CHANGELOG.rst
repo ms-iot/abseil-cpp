@@ -2,8 +2,8 @@
 Changelog for package abseil_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.3 (2017-10-13)
+------------------
 * rebase
 * Update CMakeLists.txt
 * Contributors: Abseil Team, Bronek Kozicki, Davide Faconti, Gennadiy Civil, Gennadiy Rozental, Matt Calabrese, misterg, vslashg

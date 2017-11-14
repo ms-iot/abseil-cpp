@@ -7,6 +7,7 @@
   <maintainer email="davide.faconti@gmail.com">dfaconti</maintainer>
   <license>Apache</license>
 
+  <build_depend>rsync</build_depend>
   <buildtool_depend>catkin</buildtool_depend>
 
   <!-- The export tag contains other, unspecified, tags -->

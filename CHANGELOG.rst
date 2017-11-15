@@ -2,8 +2,8 @@
 Changelog for package abseil_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.2 (2017-11-15)
+------------------
 * removing rsync
 * Contributors: Davide Faconti
 

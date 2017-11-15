@@ -2,8 +2,8 @@
 Changelog for package abseil_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.3 (2017-11-15)
+------------------
 * Fix issue `#1 <https://github.com/Eurecat/abseil-cpp/issues/1>`_
 * Contributors: Davide Faconti
 

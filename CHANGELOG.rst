@@ -2,8 +2,8 @@
 Changelog for package abseil_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.0 (2018-10-30)
+------------------
 * typo fixed
 * updated to 2018_10_30
 * Contributors: Davide Faconti

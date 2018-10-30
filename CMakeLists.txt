@@ -31,7 +31,7 @@ set( ABSL_PUBLIC_LIBRARIES
 
 catkin_package(
    INCLUDE_DIRS ./abseil_cpp
-   LIBRARIES ${ABSL_LIB_PUBLIC_LIBRARIES}
+   LIBRARIES ${ABSL_PUBLIC_LIBRARIES}
 )
 
 add_subdirectory(abseil_cpp)

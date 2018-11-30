@@ -217,6 +217,10 @@ function(absl_header_library)
     add_library(absl::${ABSL_HO_LIB_EXPORT_NAME} ALIAS ${_NAME})
   endif()
 
+  install(TARGETS ${_NAME}
+     DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+   )
+
 endfunction()
 
 

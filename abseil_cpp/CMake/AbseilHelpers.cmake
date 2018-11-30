@@ -204,6 +204,7 @@ function(absl_header_library)
 
   add_library(${_NAME} ${__dummy_header_only_lib_file})
   target_link_libraries(${_NAME} PUBLIC ${ABSL_HO_LIB_PUBLIC_LIBRARIES})
+  set_target_properties(${_NAME} PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS ON)
   target_include_directories(${_NAME}
     PUBLIC ${ABSL_COMMON_INCLUDE_DIRS} ${ABSL_HO_LIB_PUBLIC_INCLUDE_DIRS}
     PRIVATE ${ABSL_HO_LIB_PRIVATE_INCLUDE_DIRS}

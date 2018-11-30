@@ -29,9 +29,18 @@ set( ABSL_PUBLIC_LIBRARIES
     absl_utility
 )
 
+set (ABSL_INTERNAL_LIBRARIES)
+if (MSVC)
+    set( ABSL_INTERNAL_LIBRARIES
+        absl_internal_malloc_internal
+        absl_internal_spinlock_wait
+        absl_internal_throw_delegate
+    )
+endif()
+
 catkin_package(
    INCLUDE_DIRS ./abseil_cpp
-   LIBRARIES ${ABSL_PUBLIC_LIBRARIES}
+   LIBRARIES ${ABSL_PUBLIC_LIBRARIES} ${ABSL_INTERNAL_LIBRARIES}
 )
 
 add_subdirectory(abseil_cpp)
